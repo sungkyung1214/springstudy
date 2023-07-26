@@ -1,0 +1,17 @@
+package ex10_db;
+
+import org.mybatis.spring.SqlSessionTemplate;
+
+public class DAO {
+	private SqlSessionTemplate sqlSessionTemplate;
+
+	public SqlSessionTemplate getSqlSessionTemplate() {
+		return sqlSessionTemplate;
+	}
+
+	public void setSqlSessionTemplate(SqlSessionTemplate sqlSessionTemplate) {
+		this.sqlSessionTemplate = sqlSessionTemplate;
+	}
+	
+	
+}

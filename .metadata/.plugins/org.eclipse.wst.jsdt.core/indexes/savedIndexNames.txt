@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+D:\ksk\springstudy\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+232186766.index
