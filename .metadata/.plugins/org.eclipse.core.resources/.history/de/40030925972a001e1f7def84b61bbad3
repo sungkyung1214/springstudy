@@ -1,8 +1,0 @@
-package ex01_nonDI;
-
-public class TestMain {
-	public static void main(String[] args) {
-		Service sevice = new Service();
-		sevice.biz();
-	}
-}
