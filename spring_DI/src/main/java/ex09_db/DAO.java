@@ -25,7 +25,13 @@ public class DAO {
 	}
 	
 	public List<VO> getList(){
-		List<VO> list = sqlSessionTemplate.selectList("members.list");
-		return list;
+		try {
+			List<VO> list = sqlSessionTemplate.selectList("mem.list");
+			return list;
+			
+		} catch (Exception e) {
+			System.out.println(e);
+		}
+		return null;
 	}	
 }

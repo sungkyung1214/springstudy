@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="spring_DI"/>
+<aop-project name="sp"/>
+<aop-project name="spring_mvc01"/>
+<aop-project name="spring_mvc02"/>
 </aop-reference-model>

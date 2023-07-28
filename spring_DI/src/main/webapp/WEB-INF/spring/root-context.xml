@@ -15,17 +15,23 @@
 	<context:component-scan base-package="ex10_db" />
 	
 	<!-- 오라클 연결 정보 -->
-	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
+		<!-- <property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
 		<property name="url" value="jdbc:oracle:thin:@192.168.0.41:1521:xe" />
 		<property name="username" value="c##sk" />
-		<property name="password" value="s1111" />
+		<property name="password" value="s1111" />-->
+		
+		<!-- 마리아DB 연결정보 -->
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="org.mariadb.jdbc.Driver" />
+		<property name="url" value="jdbc:mariadb://localhost:3306/ictedu" />
+		<property name="username" value="bible" />
+		<property name="password" value="1111" />
 	</bean>
 	
 	<!-- mybatis의 config역할(오라클과 mybatis 연결, mapper 위치) -->
 	<bean id="sqlSessionFactoryBean" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="dataSource"></property>
-		<property name="mapperLocations" value="classpath*:ex10_db/mapper.xml"></property>
+		<property name="mapperLocations" value="classpath:*/mapper.xml"></property>
 	</bean>
 	
 	<!-- DAO에서 사용할 SqlSessionTemplate클래스를 객체로 만들자 -->

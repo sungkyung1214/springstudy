@@ -6,3 +6,37 @@
 
 7월 26, 2023 11:19:55.709 NEW SESSION
 7월 26, 2023 11:19:55.709 [7432:7676:0726/111955.707:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+
+7월 27, 2023 12:15:18.541 NEW SESSION
+7월 27, 2023 12:15:18.541 [14068:20948:0727/121518.540:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+7월 27, 2023 12:20:00.674 [14068:20948:0727/122000.674:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+7월 27, 2023 13:18:03.784 [6308:10972:0727/131803.784:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+7월 27, 2023 14:04:35.421 [14844:8488:0727/140435.421:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+7월 27, 2023 14:06:39.40 [21936:19644:0727/140639.040:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+7월 27, 2023 14:12:11.89 [17504:23284:0727/141211.089:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+7월 27, 2023 14:16:15.370 [15844:25320:0727/141615.370:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+7월 27, 2023 14:51:32.795 [16328:24304:0727/145132.795:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+7월 27, 2023 15:07:49.380 [14160:3732:0727/150749.379:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+7월 27, 2023 15:08:52.56 [19392:15792:0727/150852.056:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+7월 27, 2023 15:09:33.824 [13020:21652:0727/150933.824:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+7월 27, 2023 17:24:54.687 [13020:21652:0727/172454.686:ERROR:interface_endpoint_client.cc(702)] Message 3 rejected by interface blink.mojom.Widget
+7월 27, 2023 17:24:54.687 [13020:21652:0727/172454.686:ERROR:interface_endpoint_client.cc(702)] Message 3 rejected by interface blink.mojom.Widget
+7월 27, 2023 17:57:04.283 [13020:21652:0727/175704.283:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+7월 27, 2023 17:57:04.283 [13020:21652:0727/175704.283:ERROR:interface_endpoint_client.cc(702)] Message 5 rejected by interface blink.mojom.WidgetHost
+7월 27, 2023 18:18:59.155 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+7월 28, 2023 09:38:09.980 NEW SESSION
+7월 28, 2023 09:38:09.980 [12268:15944:0728/093809.978:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+7월 28, 2023 11:11:01.42 [19240:7832:0728/111101.042:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+7월 28, 2023 11:18:09.99 [23952:13892:0728/111809.099:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+7월 28, 2023 11:53:11.973 [21784:17412:0728/115311.973:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+7월 28, 2023 12:02:08.797 [14824:1884:0728/120208.797:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+7월 28, 2023 12:06:32.424 [7904:1736:0728/120632.424:ERROR:feature_processor_state.cc(39)] Processing error occured: model WebAppInstallationPromo failed with UkmEngineDisabled, message: 
+7월 28, 2023 12:52:59.897 [7904:16812:0728/125259.897:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for www.koreadognews.co.kr failed:
+7월 28, 2023 12:52:59.897 ----- Certificate i=0 (CN=www.koreadognews.co.kr) -----
+7월 28, 2023 12:52:59.898 ERROR: Time is after notAfter
+7월 28, 2023 12:52:59.898 
+7월 28, 2023 12:52:59.898 
+7월 28, 2023 13:13:35.673 [7904:1736:0728/131335.673:ERROR:interface_endpoint_client.cc(702)] Message 3 rejected by interface blink.mojom.Widget
+7월 28, 2023 13:58:48.992 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 28, 2023 14:33:25.395 [7904:1736:0728/143325.394:ERROR:device_event_log_impl.cc(222)] [14:33:25.394] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)

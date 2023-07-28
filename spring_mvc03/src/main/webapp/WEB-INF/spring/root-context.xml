@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+	
+	<!-- 앞에서 주석 하면서 다 지운 객체 생성하는거
+		그걸 루트에서 함  -->
+			
+		<!-- 오토와이어드하면 생성자 하는거 필요없음  -->
+		<!--<bean id="service" class="com.ict.model.MyService" />-->	
+		
+		<context:annotation-config />
+		<context:component-scan base-package="com.ict.model" />
+		
+</beans>
